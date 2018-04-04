@@ -1,7 +1,8 @@
-const bandNumber = 1
+let bandNumber = 1;
 
 const takeNumber = function (bandName) {
     bandListItem = bandNumber + ". " + bandName;
+    bandNumber +=1;
     return bandListItem;
 }
 
